@@ -1,3 +1,4 @@
+#importing polar library for validation of dataset
 import polars as pl
 
 def verify_dataset(filepath: str = "penguin_size_dataset.csv"):
